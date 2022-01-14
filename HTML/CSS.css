@@ -1,0 +1,82 @@
+body    {
+        border: rgb(255, 255, 255);
+        border-width: 10px;
+        background-color: lightgrey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+div#kontajner {
+        border:rgb(0, 0, 0)solid;
+        border-width: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+}
+
+div#hlavicka {
+    background-color: rgb(121, 245, 169);
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+div#obsah {
+    padding: 10px 10px 10px 10px;
+}
+
+div#menu{
+    width: 180px;
+    float: left;
+    padding: 0px;
+}
+
+div.moznosti {
+    background-color: rgb(148, 110, 110);
+    width: 73px;
+    margin: 10px;
+    padding: 10px;
+}
+
+div#text {
+    width: 600px;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div#pata
+{
+    clear: both;
+    padding: 10px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2{
+    padding: 8px;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}

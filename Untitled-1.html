@@ -1,0 +1,31 @@
+<html>
+    <form action=”http://www.example.com/page.php” method=”post”>
+        <fieldset>
+            <legend> Kontaktné údaje </legend>
+            <label> Meno a priezvisko <input type=”text” name=”kontaktne_udaje” size=”30” maxlenght=”100”> </label> <br />
+    <label> E-mailová adresa: <input type=”email” name=”emailova_adresa” size=”30” maxlenght=”100”> </label> <br />
+    </fieldset> <br />
+    </form action>
+    
+    <fieldset>
+        <legend> Vaše hodnotenie </legend>
+    <p>
+        <label for=”info”>Ako ste sa o nás dozvedeli? </label>
+        <select name=”respondent” id=”info”>
+            <option value=”facebook”>Facebook</option>
+            <option value=”instagram”>Instagram</option>
+        </select>
+    </p>
+    <p>Páči sa vám dizajn našej stránky? <br />
+        <label> <input type="radio" name="hodnotenie" value="ano" /> Áno</label>
+        <label> <input type="radio" name="hodnotenie" value="nie" /> Nie</label>
+    </p>
+    <p>
+        <label for="komentar"> Here napíšte vaše pripomienky a komenty</label> <br/>
+        <textarea rows="5" cols="30" id="komentar" maxlength="5"></textarea>
+    </p>
+        <label> <input type="checkbox" name="subscribe" checked="checked" /> Peihláste sa na odber </label> <br/>
+        <input type="submit" VALUE="ODOSLAT FORMULAR" />
+        </fieldset>
+        </form>
+
