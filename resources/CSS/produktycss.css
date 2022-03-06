@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    color: azure;
+    font-family: Inversionz;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+@font-face {
+    font-family: "Inversionz";
+    src: url(../font/Inversionz.otf);
+}
+
+h2 {
+    color: azure;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+h4 {
+    color: azure;
+    font-size: 25px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 3px rgb(136, 15, 136)
+}
+
+dt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+dd {
+    color: azure;
+    font-size: 14px;
+    word-spacing: 0.0001px;
+    letter-spacing: 0.01px;
+    line-height: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+.skalovatelnost p {
+    resize: both;
+    overflow: auto;
+}
+
+li {
+    color: azure;
+    font-size: 12px;
+    line-height: 16px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+p1 {
+    color: azure;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    color:rgb(255, 255, 255)
+}
+
+html {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontajner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url(../images/bck.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo_stranky {
+    width: 85px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.logo_stranky:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+.navigacny_panel {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_menu {
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.logo_menu:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+}
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bck.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    width: 220px;
+    color: rgb(56, 5, 63);
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 5px 4px 5px 4px;
+    background:azure;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    background-color: #e9b9f5
+}
+
+.riadok {
+    display: flex;
+    height: 71%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+
+.mriezka {
+    border-radius: 30px;
+    padding: 15px 25px;
+    display: block;
+    box-sizing: border-box;
+    cursor:-webkit-zoom-in;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.mriezka1 {
+    background-color: rgb(184, 45, 184, 0.05);
+    min-width: 30%;
+    min-height: 45%;
+}
+
+.mriezka:hover {
+
+    transform: translateY(-5px);
+}
+
+.staracena {
+    color: azure;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 3px rgb(136, 15, 136)
+}
+
+.novacena {
+    color: rgb(206, 7, 7);
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgb(136, 15, 136)
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.koniec {
+    height: 2%;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translateY(+30px);
+}
+

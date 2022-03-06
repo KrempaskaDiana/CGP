@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: azure;
+    font-family: Inversionz;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+@font-face {
+    font-family: "Inversionz";
+    src: url(../font/Inversionz.otf);
+}
+
+h2 {
+    color: azure;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+p {
+    color: azure;
+    font-size: 17.4px;
+    line-height: 12px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+p1 {
+    color: azure;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kontajner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url(../images/bck.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo_stranky {
+    width: 85px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.logo_stranky:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+.navigacny_panel {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_menu {
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.logo_menu:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 8px;
+    transition-duration: 0.4s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+}
+
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    width: 160px;
+    color: rgb(56, 5, 63);
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 4px 2px 4px 2px;
+    background:azure;
+    border: 0;
+    border-radius: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.riadok {
+    display: flex;
+    height: 71%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%;
+}
+
+.mriezka {
+    border-radius: 30px;
+    padding: 15px 25px;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.mriezka1 {
+    background-image: url(../images/vypredaj.jpg);
+    min-width: 30%;
+    min-height: 45%;
+}
+
+.mriezka2 {
+    background-image: url(../images/delivery.jpg);
+    min-width: 30%;
+    min-height: 45%;
+}
+
+.mriezka:hover {
+    transform: translateY(-5px);
+}
+
+.koniec {
+    height: 2%;
+    background-color: hsla(0, 0, 0, 0);
+    transform: translateY(+30px);
+}
+

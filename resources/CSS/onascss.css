@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: azure;
+    font-family: Inversionz;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+@font-face {
+    font-family: "Inversionz";
+    src: url(../font/Inversionz.otf);
+}
+
+h2 {
+    color: azure;
+    font-size: 38px;
+    text-shadow: 2px 2px 5px rgb(214, 66, 214)
+}
+
+p {
+    color: azure;
+    font-size: 17.4px;
+    line-height: 12px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+p1 {
+    color: azure;
+    font-size: 10px;
+}
+
+p2 {
+    color: azure;
+    font-size: 30px;
+    line-height: 50px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+p2 a {
+    color: rgb(184, 45, 184);
+    font-size: 30px;
+    line-height: 50px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+
+}
+
+p3 {
+    color: azure;
+    font-size: 17.4px;
+    line-height: 40px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+a {
+    text-decoration: none;
+}
+
+.zdroje {
+    margin-left: 10px;
+}
+
+.zdroje a:link {
+    color: rgb(0, 0, 0);
+}
+
+.zdroje a:visited{
+    color: rgb(59, 13, 167);
+}
+
+.zdroje a:hover {
+    color: rgb(168, 13, 199)
+}
+
+.zdroje a:focus {
+    color: rgb(222, 108, 245)
+}
+
+.zdroje a:active {
+    color: rgb(65, 9, 110)
+}
+
+.kontajner {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url(../images/bck.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo_stranky {
+    width: 85px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.logo_stranky:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+.navigacny_panel {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_menu {
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.logo_menu:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+}
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bck.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+legend {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(184, 45, 184);
+    font-size: 20px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+label {
+    color: azure;
+    font-size: 17.4px;
+    line-height: 40px;
+    word-spacing: 0.001px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)
+}
+
+iframe {
+    margin-bottom: 36px;
+}
+
+input[type=”text”] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;   
+    border: none;
+    border-radius: 3px; 
+}
+
+input[type=”number”] {
+    width: 115%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;   
+    border: none;
+    border-radius: 3px; 
+}
+
+input[type=”text1”] {
+    width: 120%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;   
+    border: none;
+    border-radius: 3px; 
+}
+
+.a {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=”longtext”] {
+    width: 100%;
+    height: 223px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;   
+    border: 2px solid rgba(184, 45, 184, 0.5);
+    border-radius: 3px; 
+}
+
+input:focus {
+    background-color: rgb(250, 228, 250);
+  }
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fdf4fc;
+}
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    width: 300px;
+    color: rgb(56, 5, 63);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 4px 2px 4px 2px;
+    background:azure;
+    border: 0;
+    border-radius: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.stlpec button {
+    display: inline-block;
+    width: 49%;
+    justify-content: center;
+}
+
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+.riadok {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.stlpec {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.mriezka {
+    border-radius: 30px;
+    padding: 15px 25px;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+
+.koniec {
+    height: 2%;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translateY(+30px);
+}
