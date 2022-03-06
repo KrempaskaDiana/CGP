@@ -74,6 +74,7 @@ a {
     height: 20%;
     display: flex;
     align-items: center;
+    position: sticky;
 }
 
 .logo_menu {
@@ -143,6 +144,9 @@ button:hover {
     flex-basis: 50%;
 }
 
+audio {
+    margin-top: 20px;
+}
 .mriezka {
     border-radius: 30px;
     padding: 15px 25px;

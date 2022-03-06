@@ -276,7 +276,7 @@ fieldset {
 }
 
 .stlpec2 th {
-    width: 200px;
+    min-width: 230px;
 }
 
 .dodatok {
@@ -300,7 +300,6 @@ th, td {
     border-right: 1px solid rgb(250, 238, 255);
     padding: 8px;
     color: #fdf4fc;
-    width: 
 }
 
 tr:hover {

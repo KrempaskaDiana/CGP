@@ -302,6 +302,9 @@ fieldset {
     transition: transform 0.5s;
 }
 
+video {
+    width: 580px;
+}
 
 .koniec {
     height: 2%;
